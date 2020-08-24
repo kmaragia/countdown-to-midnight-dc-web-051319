@@ -3,7 +3,7 @@
 def countdown(int)
   count = 0
   while count < int 
-   puts "#{int} SECOND(S)!"
+   puts "#{count} SECOND(S)!"
    count += 1
   end
   puts "HAPPY NEW YEAR !"
@@ -13,7 +13,7 @@ def countdown_with_sleep (int)
   count = 0
   while count < int
     sleep(1)
-    puts "#{int} SECOND(S)!"
+    puts "#{count} SECOND(S)!"
     count +=1
   end
   puts "HAPPY NEW YEAR !"
